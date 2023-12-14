@@ -18,4 +18,4 @@ console.log(object);
 // console.log(object);
 
 // var dataType = (datatype)=> console.log(typeof datatype)
-// dataType(21)
+// dataType(21
