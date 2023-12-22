@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .toggle {
+    text-decoration: line-through;
+} */
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../images/img.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.form {
+    width: 350px;
+    height: 350px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 50px 35px 0;
+    border-radius: 20px;
+    background-color: purple;
+    backdrop-filter: blur(20px);
+    background: transparent;
+    letter-spacing: 1px;
+    text-align: center;
+    color: gold;
+}
+
+.form__group {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.form__sum,
+.form__month {
+    background: transparent;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    color: gold;
+    font-size: 20px;
+}
+
+.form__sum::placeholder {
+    color: gold;
+}
+
+.form__month::placeholder {
+    color: gold;
+}
+
+.btn {
+    background: none;
+    border: none;
+    width: 150px;
+    background-color: purple;
+    padding: 15px;
+    border-radius: 20px;
+    color: gold;
+    font-size: 17px;
+    margin-top: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: sans-serif;
+}
