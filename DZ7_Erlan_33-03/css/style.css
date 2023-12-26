@@ -1,0 +1,15 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.question{
+    display: flex;
+    gap: 20px;
+}
+.answer{
+    display: none;
+}
+.visible{
+    display: block;
+}
